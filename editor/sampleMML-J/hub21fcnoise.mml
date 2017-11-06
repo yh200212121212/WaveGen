@@ -1,0 +1,14 @@
+// FamicomNoise http://arc.ropo.jp/git/hub21fcnoise.mp3
+
+t150
+
+@4 o0 v50 q100 r8
+
+ADSR(0,0,0,1,0.18)
+	// o0c`o1d+ ‚Ì16’iŠK o1e‚Ío0c‚Æˆ—‚³‚ê‚é
+l8      cc+dd+eff+gg+aa+b>cc+dd+<
+l16     cc+dd+eff+gg+aa+b>cc+dd+<
+l32     cc+dd+eff+gg+aa+b>cc+dd+<
+l64     cc+dd+eff+gg+aa+b>cc+dd+<
+
+r

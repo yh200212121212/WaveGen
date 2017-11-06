@@ -1,0 +1,109 @@
+//–‚•¨‚l	http://arc.ropo.jp/git/GR1ST4.mp3
+t145
+
+Track(0)
+@0 v30 q80 @w750 r4 ADSR(1,0.01,0.05,0.5,0.2)
+[10
+l8o5
+c.c c16c dd r4
+e-.e-. ff4 r4
+
+l16
+
+g2 fec<g &g4
+fec<g &g4 >e8.g8.>c8
+g2 fec<g &g4
+fec<g &g4 >g8.>c8.e8
+
+g2 fec<f &f8de
+l8 f.e.f g.f.g
+
+l16 g+b->cd e-dc<b- g+b-g+g fgfe-
+l8 d.f.b-. >e-.a-4
+l16 g2 fec<g8 g>c8
+de-8e- &e-4 e-f8f &f4
+fg8g8 fg8 &g2
+]
+r1
+
+Track(1)
+@0 v30 q80 @w750 r4 ADSR(1,0.01,0.05,0.5,0.2)
+[10
+l8o4
+a.a a16a bb r4
+>c.c. dd4 r4
+
+e2 r2
+<r2 d.e.g
+`e2r2
+r2 c.e.g
+`c2 r2
+c.r.r c.r.r
+r1
+ c.c.f. b-.>e-4
+e2r2
+l16 <fg8g &g4 ga8a &a4
+>de8e8 de8 &e2
+]
+r1
+
+Track(2)
+@0 v30 q80 @w750 r4 ADSR(1,0.01,0.05,0.5,0.2)
+[10
+l8o4
+f.f f16f gg r4
+a-.a-. b-b-4 r4
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+]
+r1
+
+Track(3)
+@0 v25 q50 @w250 r4 ADSR(1,0.01,0.05,1,0.3)
+[10
+l8o3r2r4gg
+r2r8gg16gg16
+
+[c`cc`c]
+[c`cc`c]<
+[b-`b-b-`b-]
+[b-`b-b-`b-]
+[a`aa`a]
+d`dd`d e`ee`e
+[f`ff`f]
+[g`gg`g]
+[c`cc`c]
+e-`e-e-`e- f`ff`f
+>c16ccc16c&c2
+]
+r1
+
+Track(4)
+@0 v25 q50 @w250 r4 ADSR(1,0.01,0.05,1,0.3)
+[10
+l8o2
+r2r4gg
+r2r8gg16gg16
+
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+r1
+]
+r1

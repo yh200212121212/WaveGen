@@ -1,0 +1,72 @@
+t140
+
+//---------------------------------------------------------------------
+// メロ
+//---------------------------------------------------------------------
+Track(0)
+o5 l8 q85 @0 v60 r2  ADSR(1.0, 0.01, 0.05, 0.8, 0.1)
+
+[
+ d4
+ b4rb&bbbb bbbbbbab a4gg&g2& g2.ga
+ b-b-4b-rb-b-b- b-arg&g4gg f+gra&a2& a2.dd
+ e4.eeef+g& g2.q50ggq70 d4ddggab& b2rbbb
+ `cbae&e4bb `cbae&e4r4 rgge gggg a4.g&g2& g2.r4
+ [
+  [3 e-4]gf&    f2.rg&    [3 g4]b-a& : a2.ga
+  b-b-rb-b-agb- aarb-aagf rgrfe-e-fg f+gra&a2
+ ]
+ a2.rg16a16 b-b-rb- <rgb-g b-4>d4c4"b-f16g16 aarar<ab-a
+ b-4>a4g4fe-16f16 g4ggr4"b-4 c4."b-rf+f+g f+2g2
+ a2.rd [3 b4.a&a4g4& : g2.rd] g1& g4r4g2 g1&g1
+ l12 [gge-e-]cce-e- cc<aa>cc<aaggaab1&b2.l8 >
+]
+
+r1
+
+//---------------------------------------------------------------------
+// メロサポ
+//---------------------------------------------------------------------
+Track(1)
+o4 l8 q70 @0 @w125 v60 r2 ADSR(1.0, 0, 0.05, 0.8, 0.2)
+
+[
+ r4
+ [4 rdbd] [rgbb] <rbr4b4b4>
+ [3 rggg] rgb-b- raaf+ rf+f+f+ rf+cf+ rf+f+f+
+ [reee] [re-e-e-] r"bg"br"bgd [reg+e]
+ rcecrcgc rc`ecrccc reegreee [r"bb"b] [r<bbb>]
+ [
+  [3 g4]b-a& a2.r>e-&  [3 e-4]gf&   : f2.<e-f
+  [rdb-d]    rcacrcb-a r"b-b-argab- r"a`cf+rf+`cf+
+ ]
+ f2.<re-16f16 ggrgr"b-d"b- c4b-4a4ga16b-16 >ccrc<rfgf
+ g4`c4b-4ag16a16 b-4b-b-r4g4 a4.graab- ac"acecec
+ [f+dcd] >[egef+df+"b4& "b2.r4]<
+ cegdf+ae"b [4 e"b] c4r2. "a4c4e-4g4 `c4g4e-4c4
+ l12 >[e-e-cc]<aa>cc< aae-e-aacce-e-aa l8 g1..
+]
+
+//---------------------------------------------------------------------
+// ベース
+//---------------------------------------------------------------------
+Track(2)
+o4 l8 q50 @1 v100 r2  ADSR(0, 0, 0, 1, 0.05)
+
+[
+ d4 <
+ [4 <g>g>`d<g] [e>e`de<] < [8 e]
+ [4 e->e-`e-e-<] [d>c`cd<] db`cbdb`cb>
+ [4 "ccgc] < ["gg`bg] ["g+g+>>d<<g+] >
+ [3 "aa>`c<a] "aa`ea [d>c`cc<] ["gg>`d<g] "gg`gg "gg`dg
+ [
+  [3 cb-]cf4 [3 cf]b- [3 cb-]cf4
+  [3 cf]c l16 [grgrg8gr] : [frfrf8fr] [e-re-re-8e-r]
+  [drdrd8dr] l8
+ ]
+ [grgrg8gr] [4 frfrf8fr]
+ [4 e-re-re-8e-16r] [4 drdrd8dr] l8
+ [c>eg"df+a<e4& [4 e4] ]
+ "a>ce<"b>df+<c4& [4 c4] d4r2. f4r2. r1
+ r1 r1 `d1r4<g4g4> >
+]

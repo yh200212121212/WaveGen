@@ -1,0 +1,15 @@
+Debug/
+Release/
+ipch/
+obj/
+bin/
+x64/
+*.wav
+*.mp3
+
+*.sdf
+*.suo
+*.vcxproj.user
+*.csproj.user
+*.opensdf
+*.exe

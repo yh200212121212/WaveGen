@@ -1,0 +1,80 @@
+// ’¬l‚`‚³‚ñ’ñ‹Ÿƒtƒ@ƒCƒ‹ http://arc.ropo.jp/git/dqZomaBattle.mp3
+t160
+
+Track(0)
+o5 l16 q80 @0 v60 ADSR(1,0.01,0,1,0.2)
+
+// ƒCƒ“ƒgƒ
+[8e-<b-gb->]r4f8r8e8r8c8r8e-8r8<b8r8>r8[frercre-r<br>]<
+q60[24f]q80f+2g1&g2..r8
+
+[4
+
+// ‚`ƒƒ
+q80o4
+g2>c2<b-1r2>c4<b-4a4g4f4a4
+g2>f2d1r2e-4d4c2<b-4>c4d1&d1
+// ‚aƒƒ
+q80o6
+r1r8f8r4fff8r4fffffrfffff8r8r4
+r1r1<g->f<b>b-r8r4.<g->f<g->f<b>b-r2.r2.
+// ‚bƒƒ
+l4q80o5r4
+rg>c<b-agfag>c<b->f2e2c<b->c<
+rg>c<b-agfag>c<b->f2e2c<b->c<
+a1q60l16[4ffff]
+
+]
+r4
+
+Track(1)
+o4 l16 q90 @1 v120 ADSR(1,0.01,0,1,0.01)
+
+
+// ƒCƒ“ƒgƒ
+[8g<b>eg]r4a>c<a>c < a-ba-b egeg gb-gb- e-g-e-g- r8
+ara-rergre-r arrr rrgr rr
+q80[24c]q100r2e-1&e-1
+
+[4
+
+// ‚`ƒƒ
+q60o4
+[<b->d<b->d][egeg][e-ge-g][e-ge-g][e-ge-g]egege-ge-gdfdf<b->d<b->d<a>c<a>cdfdf
+[<b->d<b->d][a>c<a>c<][fafa][fafa][fafa]gb-gb-fafa[egeg]e-ge-gdfdf
+[gbgb][gbgb][gbgb][gbgb]
+// ‚aƒƒ
+q80o5
+r1r8g-8r4g-g-g-8r4g-g-g-g-g-rg-g-g-g-g-8r8r4r2r4r8<
+q70[8<b->cd-c]<b->cd-e-eg-gab->cd-e-eg-gab->cd-e-ee-d-c<b-agg-ee-d-c
+// ‚bƒƒ
+l4q80o4
+b-8r8b->ee-<fb-afb->ee-a2g2ee-er<b->ee-<fb-afb->ee-a2g2ee-e
+g-1q60l16[4cccc]
+
+]
+r4
+
+Track(2)
+o3 l16 q90 @1 v120 ADSR(1,0.01,0,1,0.01)
+
+// ƒCƒ“ƒgƒ
+[8egb>e<]d8r8>d8r8<f8r8b-8r8a-8r8>c8r8< dr>dr<frb-ra-r>cr<drrrrra-r r8
+q80[24g]r2q50[4a-8b8e-8b8]
+
+[4
+
+// ‚`ƒƒ
+l8q80o3
+[20ggrg]
+// ‚aƒƒ
+l16q60o3
+[8gab-a]gab->cd-e-d-c<b-agg-ee-eg- gab->cd-e-ee-d-c<b-agg-eg-
+[8gab-a]gab->cd-e-eg-gab->cd-e-eg-gab->cd-c<b-ag<g-ee-d-c<b-a
+// ‚bƒƒ
+q60o3
+[[8gab-a][gab->cd-e-d-c<b-agg-ee-eg-]][3gab-a]gab->c
+[4de-dd-][4g-g-g-g-]
+
+]
+r4

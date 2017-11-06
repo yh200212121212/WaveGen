@@ -1,0 +1,71 @@
+// https://github.com/ropo/WaveGen
+// http://arc.ropo.jp/git/hub26polly.mp3
+#FC(1)
+
+t120
+
+//---------------------------------------------------
+Track(0)
+@0 @w500 l8
+
+o5 v60 q55 
+ADSR( 1, 0.01, 0.03, 0.3, 0.3 )
+VIBRATO( 0.5, 8, 0.5, 1, 0, 0.5, 5, 0 )
+gb>dc+& c+d4d d<a4b&b2 gb>dc+4d4d& d2.r4
+
+o4 v50 q75
+ADSR( 1, 0.01, 0.01, 0.8, 0.2 )
+f+f+aa>e4c+d& d2.r4
+[<bb>ddf+4d<a& a4.gg2 : f+f+aa>e4c+d& d2.r4]
+f+edef+4b4 >d4f+4b2 [dc+"bc+] d1
+
+<aaa4af+ed& d2r2 aaa4>edc+d& d2r4"bc+
+[3 dc+"bc+]dr<aa >[dc+"bc+] ddddf+drd& d1
+
+r1
+
+//---------------------------------------------------
+Track(1)
+@0 @w500 l8
+
+o5 v60 q55
+ADSR( 1, 0.01, 0.03, 0.3, 0.3 )
+VIBRATO( 0.5, 8, 0.5, 1, 0, 0.5, 5, 0 )
+dgbe4f+4f+ f+f+4d&d2 dgbe4f+4f+& f+2.r4
+
+o4 v30 q75
+ADSR( 1, 0.01, 0.01, 0.8, 0.05 )
+VIBRATO( 0, 0, 0, 0, 0, 0, 0, 0 )
+[ r1 rdf+brdf+a : r1 r1 ]
+r1 r1 r1 r1 [baga] f+1
+
+r1 v20 d<f+g`dr4dr r1 >f+"adf+arb`c+ v30
+[bgdgaf+dr : gd"adaf+dr] bbbb`dgrf+& f+1
+
+r1
+
+//---------------------------------------------------
+Track(2)
+@1 l8 
+
+o3 v50 q95 
+g4.a&a2 f+4.g&g2 g4.a2f+& f+2&f+>f+16f+16ed+
+
+[drrdc+rrc+ <brrbarra grrgf+rrf+ frrfarra>]
+<[4 b][4 a+] [4 a][4 g+] [4 g][4 a] d1
+
+f+rrf+r2 grrgr2 f+rrf+arra >drrddr4.<
+[4 g][4 f+] [4 e][4 f+] [4 g][4 f+] [4 e][4 a] d1
+
+r1
+
+//---------------------------------------------------
+Track(4)
+@4 l8 
+
+o1 v30 q10
+ADSR( 1, 0, 0, 1, 0.01 )
+[3 ddddrdrd] rddrr2
+[8 rdrdrdrq20d16d16q10][28 d] r2
+[ddddrddr] [13 d]rrd
+r[38 d]r

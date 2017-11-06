@@ -1,0 +1,83 @@
+// https://github.com/ropo/WaveGen
+// http://arc.ropo.jp/git/hbu26yuukyu.mp3
+#FC(1)
+t118
+
+//-----------------------------------------
+Track(0)
+@0 v45 q90 @w500
+ADSR( 1, 0.01, 0.02, 0.8, 0.1 )
+VIBRATO( 0, 0, 0, 0, 0, 0, 0, 0 )
+
+o4 l16
+[dbdec"ara`cebegara]>
+
+v50 ADSR(1, 0.03, 0.2, 0.8, 0.2 )
+[
+ l2.
+ [
+  dg4 ec4 d4e& er4 de4 cd4
+  "b1& : "br4
+ ] "b2 r8 l16 "bcdef+g+
+ l8
+ a2&aeeg a4`c4b4g4
+ a2&ae4d e2e4g4 g4.d4dde f4f4e4d4
+ e1 g+1
+ a2&aeeg a4`c4b4g4
+ a2&ae4d e1     a2&aagf  e4d4c4d4
+ e1& e2r2
+]
+
+r1
+
+//-----------------------------------------
+Track(1)
+@0 v30 q90 @w500
+ADSR( 1, 0.01, 0.02, 0.8, 0.01 )
+VIBRATO( 0, 0, 0, 0, 0, 0, 0, 0 )
+
+o4 l16
+r8.[dbdec"ara`cebeg:ara]
+
+v35 q90 ADSR(1, 0.03, 0.2, 0.8, 0.2 )
+[
+ [
+  [6 dbdec"ara`cebegara]
+  [  dbde"b"grabeaegbrb]
+ ]
+
+ eab`cbare`c8.b8.a8 eab`cbarea8.a8.`c8
+ eab`cbare b8.a8.g8 eab`cbareg8.g8. b8
+ eab`cbare`c8.b8.a8 eab`cbarea8.a8.`c8
+ ef+g+bag+reb8.a8.g+8 deg+bag+reg+8.g+8.b8
+ eab`cbare`a8.b8.a8 eab`cbarea8.a8.`c8
+ egabagreb8.a8.g8 egabagreg8.g8.b8
+ [dgdec"ara`df`cfb-`cr`c]
+ df+ef+d"brb`df+`c+f+abrb
+ eg+f+g+d"brg+beaeg+brb
+]
+
+r1
+
+//-----------------------------------------
+Track(2)
+@1 v90 q90 o3 l16
+VIBRATO( 0, 0, 0, 0, 0, 0, 0, 0 )
+
+r1 r1
+
+[
+ [
+  ccr4ccr8"g8e8"g8 ccr4ccr2 <aar4aar8"a8e8"g8
+  aar4aar2 >ffr4ffr8c8"a4 ffr4ffr2
+  ccr4ccr8"b8f+8"b8 eer4eer2
+ ]
+ ffr4ffr4c4 ffr4ffr8c8`c8c8
+ eer4eer4c4 eer4eer8"b8 b8"b8 ddr4ddr8a4f8 ddr4ddr8d8f4
+ c+c+r4c+c+r8c+4d8 eer4eer2
+ ffr4ffr4c4 ffr4ffr8c8`c8c8
+ eer4eer4"b4 eer4eer8<b8`b8b8 b-b-r4b-b-r2
+ b-b-r4b-b-r2 bbr4bbr2 >eer4eer2
+]
+
+r1

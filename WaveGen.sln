@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveGenEditor", "editor\WaveGenEditor.csproj", "{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75} = {BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveGenDll", "WaveGenDll\WaveGenDll.vcxproj", "{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Debug|Win32.ActiveCfg = Debug|x86
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Debug|Win32.Build.0 = Debug|x86
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Debug|x64.ActiveCfg = Debug|x64
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Debug|x64.Build.0 = Debug|x64
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Release|Win32.ActiveCfg = Release|x86
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Release|Win32.Build.0 = Release|x86
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Release|x64.ActiveCfg = Release|x64
+		{CA588B07-8B0E-438F-9DC0-7FB6D5627A23}.Release|x64.Build.0 = Release|x64
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Debug|Win32.Build.0 = Debug|Win32
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Debug|x64.ActiveCfg = Debug|x64
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Debug|x64.Build.0 = Debug|x64
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Release|Win32.ActiveCfg = Release|Win32
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Release|Win32.Build.0 = Release|Win32
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Release|x64.ActiveCfg = Release|x64
+		{BBB67342-FF42-4BA5-B7B0-BECBEAB0BC75}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
