@@ -14,12 +14,30 @@ namespace WaveGenEditor
     {
         private WaveGenIF waveGen = null;
         private bool isWaveSave = false;
-
+        public void Add()
+        {
+            // 
+            // keyPreview
+            // 
+            this.keyPreview.BackColor = System.Drawing.Color.White;
+            this.keyPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.keyPreview.KeysCount = ((byte)(88));
+            this.keyPreview.Location = new System.Drawing.Point(12, 33);
+            this.keyPreview.Name = "keyPreview";
+            this.keyPreview.Size = new System.Drawing.Size(357, 35);
+            this.keyPreview.TabIndex = 5;
+            this.keyPreview.TabStop = false;
+            this.keyPreview.EventNoteOn += new WaveGenEditor.KeybordControl.EventHandlerNoteOnOff(this.keyPreview_EventNoteOn);
+            this.keyPreview.EventNoteOff += new WaveGenEditor.KeybordControl.EventHandlerNoteOnOff(this.keyPreview_EventNoteOff);
+            this.keyPreview.EventChangeType += new WaveGenEditor.KeybordControl.EventHandlerChangeType(this.keyPreview_EventChangeType);
+            this.Controls.Add(this.keyPreview);
+        }
         /// <summary>
         /// Constructor
         /// </summary>
         public frmMain()
         {
+            Add();
             InitializeComponent();
         }
 

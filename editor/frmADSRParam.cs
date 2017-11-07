@@ -10,9 +10,29 @@ namespace WaveGenEditor
         private Bitmap backBuffer;
         private bool isValueCahnged = false;
         private WaveGenIF waveGen = null;
-
+        private void Add()
+        {
+            // 
+            // keyPreview
+            // 
+            this.keyPreview.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.keyPreview.BackColor = System.Drawing.Color.White;
+            this.keyPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.keyPreview.KeysCount = ((byte)(88));
+            this.keyPreview.Location = new System.Drawing.Point(12, 248);
+            this.keyPreview.Name = "keyPreview";
+            this.keyPreview.Size = new System.Drawing.Size(404, 39);
+            this.keyPreview.TabIndex = 20;
+            this.keyPreview.TabStop = false;
+            this.keyPreview.EventNoteOn += new WaveGenEditor.KeybordControl.EventHandlerNoteOnOff(this.keyPreview_EventNoteOn);
+            this.keyPreview.EventNoteOff += new WaveGenEditor.KeybordControl.EventHandlerNoteOnOff(this.keyPreview_EventNoteOff);
+            this.keyPreview.EventChangeType += new WaveGenEditor.KeybordControl.EventHandlerChangeType(this.keyPreview_EventChangeType);
+            this.Controls.Add(this.keyPreview);
+        }
         public frmADSRParam()
         {
+            Add();
             InitializeComponent();
         }
 

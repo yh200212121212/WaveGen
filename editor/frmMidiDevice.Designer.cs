@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMidiDevice));
             this.cmdOK = new System.Windows.Forms.Button();
             this.cmdCancel = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cmbMidiin = new System.Windows.Forms.ComboBox();
             this.chkUnuseVelocity = new System.Windows.Forms.CheckBox();
+            this.cmbMidiin = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +68,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "MIDI In";
             // 
+            // chkUnuseVelocity
+            // 
+            this.chkUnuseVelocity.AutoSize = true;
+            this.chkUnuseVelocity.Location = new System.Drawing.Point(15, 44);
+            this.chkUnuseVelocity.Name = "chkUnuseVelocity";
+            this.chkUnuseVelocity.Size = new System.Drawing.Size(108, 16);
+            this.chkUnuseVelocity.TabIndex = 3;
+            this.chkUnuseVelocity.Text = "Fixed velocity";
+            this.chkUnuseVelocity.UseVisualStyleBackColor = true;
+            // 
             // cmbMidiin
             // 
             this.cmbMidiin.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -75,16 +86,6 @@
             this.cmbMidiin.Name = "cmbMidiin";
             this.cmbMidiin.Size = new System.Drawing.Size(377, 20);
             this.cmbMidiin.TabIndex = 0;
-            // 
-            // chkUnuseVelocity
-            // 
-            this.chkUnuseVelocity.AutoSize = true;
-            this.chkUnuseVelocity.Location = new System.Drawing.Point(15, 44);
-            this.chkUnuseVelocity.Name = "chkUnuseVelocity";
-            this.chkUnuseVelocity.Size = new System.Drawing.Size(133, 16);
-            this.chkUnuseVelocity.TabIndex = 3;
-            this.chkUnuseVelocity.Text = "Fixed velocity";
-            this.chkUnuseVelocity.UseVisualStyleBackColor = true;
             // 
             // frmMidiDevice
             // 
@@ -95,6 +96,7 @@
             this.Controls.Add(this.cmdCancel);
             this.Controls.Add(this.cmdOK);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmMidiDevice";
             this.ShowIcon = false;

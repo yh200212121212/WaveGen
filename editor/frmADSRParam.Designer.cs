@@ -47,7 +47,6 @@
             this.sldDTime = new System.Windows.Forms.TrackBar();
             this.sldATime = new System.Windows.Forms.TrackBar();
             this.sldAPower = new System.Windows.Forms.TrackBar();
-            this.keyPreview = new WaveGenEditor.KeybordControl();
             ((System.ComponentModel.ISupportInitialize)(this.picGraphic)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sldRTime)).BeginInit();
@@ -68,7 +67,7 @@
             this.picGraphic.InitialImage = null;
             this.picGraphic.Location = new System.Drawing.Point(12, 16);
             this.picGraphic.Name = "picGraphic";
-            this.picGraphic.Size = new System.Drawing.Size(404, 226);
+            this.picGraphic.Size = new System.Drawing.Size(437, 226);
             this.picGraphic.TabIndex = 15;
             this.picGraphic.TabStop = false;
             this.picGraphic.Paint += new System.Windows.Forms.PaintEventHandler(this.picGraphic_Paint);
@@ -77,7 +76,7 @@
             // cmdClipCopy
             // 
             this.cmdClipCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdClipCopy.Location = new System.Drawing.Point(481, 298);
+            this.cmdClipCopy.Location = new System.Drawing.Point(514, 298);
             this.cmdClipCopy.Name = "cmdClipCopy";
             this.cmdClipCopy.Size = new System.Drawing.Size(110, 23);
             this.cmdClipCopy.TabIndex = 10;
@@ -88,7 +87,7 @@
             // cmdClose
             // 
             this.cmdClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmdClose.Location = new System.Drawing.Point(597, 298);
+            this.cmdClose.Location = new System.Drawing.Point(630, 298);
             this.cmdClose.Name = "cmdClose";
             this.cmdClose.Size = new System.Drawing.Size(75, 23);
             this.cmdClose.TabIndex = 11;
@@ -114,7 +113,7 @@
             this.groupBox1.Controls.Add(this.sldDTime);
             this.groupBox1.Controls.Add(this.sldATime);
             this.groupBox1.Controls.Add(this.sldAPower);
-            this.groupBox1.Location = new System.Drawing.Point(422, 12);
+            this.groupBox1.Location = new System.Drawing.Point(455, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(250, 275);
             this.groupBox1.TabIndex = 19;
@@ -126,7 +125,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(14, 222);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 12);
+            this.label5.Size = new System.Drawing.Size(35, 12);
             this.label5.TabIndex = 29;
             this.label5.Text = "rTime";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -136,7 +135,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 171);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 12);
+            this.label4.Size = new System.Drawing.Size(41, 12);
             this.label4.TabIndex = 28;
             this.label4.Text = "sPower";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -146,7 +145,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 117);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 12);
+            this.label3.Size = new System.Drawing.Size(35, 12);
             this.label3.TabIndex = 27;
             this.label3.Text = "dTime";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -156,7 +155,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 12);
+            this.label2.Size = new System.Drawing.Size(35, 12);
             this.label2.TabIndex = 26;
             this.label2.Text = "aTime";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -166,7 +165,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 12);
+            this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 25;
             this.label1.Text = "aPower";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -176,7 +175,7 @@
             this.txtRTime.Location = new System.Drawing.Point(8, 237);
             this.txtRTime.MaxLength = 10;
             this.txtRTime.Name = "txtRTime";
-            this.txtRTime.Size = new System.Drawing.Size(40, 19);
+            this.txtRTime.Size = new System.Drawing.Size(40, 21);
             this.txtRTime.TabIndex = 8;
             this.txtRTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtRTime.TextChanged += new System.EventHandler(this.txtParamTextChanged);
@@ -186,7 +185,7 @@
             this.txtSPower.Location = new System.Drawing.Point(8, 186);
             this.txtSPower.MaxLength = 10;
             this.txtSPower.Name = "txtSPower";
-            this.txtSPower.Size = new System.Drawing.Size(40, 19);
+            this.txtSPower.Size = new System.Drawing.Size(40, 21);
             this.txtSPower.TabIndex = 6;
             this.txtSPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtSPower.TextChanged += new System.EventHandler(this.txtParamTextChanged);
@@ -196,7 +195,7 @@
             this.txtDTime.Location = new System.Drawing.Point(8, 132);
             this.txtDTime.MaxLength = 10;
             this.txtDTime.Name = "txtDTime";
-            this.txtDTime.Size = new System.Drawing.Size(40, 19);
+            this.txtDTime.Size = new System.Drawing.Size(40, 21);
             this.txtDTime.TabIndex = 4;
             this.txtDTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDTime.TextChanged += new System.EventHandler(this.txtParamTextChanged);
@@ -206,7 +205,7 @@
             this.txtATime.Location = new System.Drawing.Point(8, 84);
             this.txtATime.MaxLength = 10;
             this.txtATime.Name = "txtATime";
-            this.txtATime.Size = new System.Drawing.Size(40, 19);
+            this.txtATime.Size = new System.Drawing.Size(40, 21);
             this.txtATime.TabIndex = 2;
             this.txtATime.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtATime.TextChanged += new System.EventHandler(this.txtParamTextChanged);
@@ -216,7 +215,7 @@
             this.txtAPower.Location = new System.Drawing.Point(8, 33);
             this.txtAPower.MaxLength = 10;
             this.txtAPower.Name = "txtAPower";
-            this.txtAPower.Size = new System.Drawing.Size(40, 19);
+            this.txtAPower.Size = new System.Drawing.Size(40, 21);
             this.txtAPower.TabIndex = 0;
             this.txtAPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtAPower.TextChanged += new System.EventHandler(this.txtParamTextChanged);
@@ -276,28 +275,11 @@
             this.sldAPower.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.sldAPower.ValueChanged += new System.EventHandler(this.trackBarValueChanged);
             // 
-            // keyPreview
-            // 
-            this.keyPreview.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.keyPreview.BackColor = System.Drawing.Color.White;
-            this.keyPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.keyPreview.KeysCount = ((byte)(88));
-            this.keyPreview.Location = new System.Drawing.Point(12, 248);
-            this.keyPreview.Name = "keyPreview";
-            this.keyPreview.Size = new System.Drawing.Size(404, 39);
-            this.keyPreview.TabIndex = 20;
-            this.keyPreview.TabStop = false;
-            this.keyPreview.EventNoteOn += new WaveGenEditor.KeybordControl.EventHandlerNoteOnOff(this.keyPreview_EventNoteOn);
-            this.keyPreview.EventNoteOff += new WaveGenEditor.KeybordControl.EventHandlerNoteOnOff(this.keyPreview_EventNoteOff);
-            this.keyPreview.EventChangeType += new WaveGenEditor.KeybordControl.EventHandlerChangeType(this.keyPreview_EventChangeType);
-            // 
             // frmADSRParam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 333);
-            this.Controls.Add(this.keyPreview);
+            this.ClientSize = new System.Drawing.Size(717, 333);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cmdClose);
             this.Controls.Add(this.cmdClipCopy);
@@ -343,6 +325,6 @@
         private System.Windows.Forms.TrackBar sldDTime;
         private System.Windows.Forms.TrackBar sldATime;
         private System.Windows.Forms.TrackBar sldAPower;
-        private KeybordControl keyPreview;
+        private KeybordControl keyPreview=new KeybordControl();
     }
 }
