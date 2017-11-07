@@ -640,7 +640,7 @@ std::vector<SeqInputMML::TOKEN> SeqInputMML::CompilePhase2( const wchar_t *pSour
 			continue;
 		}
 
-		// トラックチェンジ？
+		// Track change?
 		if( wcsncmp( pSource, L"track(", 6 ) == 0 ) {
 			if( !loopStack.empty() )
 				ERR(2)
